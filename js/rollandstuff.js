@@ -22,4 +22,26 @@ $(document).ready(function() {
             }, function(){
         $("#e-text").animate({top: "-50", opacity: "0"}, 200, "swing");
     });
+    
+    $("#header-container").hover(function() {
+        $("#text-header").animate({top: "0", opacity: "1"}, 200, "swing");
+            }, function(){
+        $("#text-header").animate({top: "-50", opacity: "0"}, 200, "swing");
+    });
+    
+    $("#h-small").hover(function() {
+        $("#text-header").html("THE ARTIST");
+    });
+    
+    $("#o-small").hover(function() {
+        $("#text-header").html("THE ARTWORK");
+    });
+    
+    $("#p-small").hover(function() {
+        $("#text-header").html("PUBLIC EVENTS");
+    });
+    
+    $("#e-small").hover(function() {
+        $("#text-header").html("EXPERIENCE");
+    });
 });
