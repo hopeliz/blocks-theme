@@ -1,0 +1,156 @@
+/* ------------------------------------------------------------------------------------------ */
+
+/* || FONTS */
+
+/* ------------------------------------------------------------------------------------------ */
+
+@font-face {
+    font-family: ebrima;
+    src: url(../fonts/ebrima.ttf);
+}
+
+@font-face {
+    font-family: ebrima-bold;
+    src: url(../fonts/ebrimabd.ttf);
+}
+
+@font-face {
+    font-family: intervogue;
+    src: url(../fonts/intervogue-soft-reg.otf);
+}
+
+@font-face {
+    font-family: intervogue-ultra;
+    src: url(../fonts/intervogue-soft-ultra.otf);
+}
+
+@font-face {
+    font-family: skiplegday;
+    src: url(../fonts/skiplegday.ttf);
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* || DEFAULT STYLING */
+
+/* ------------------------------------------------------------------------------------------ */
+
+body, p {
+    color: #2d2d2d;
+    font-family: intervogue, Arial, sans-serif;
+    font-size: 24pt;
+    line-height: 1.5;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+/* || LANDING PAGE */
+
+/* ------------------------------------------------------------------------------------------ */
+
+.landing-dot {
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: intervogue-ultra, Arial, sans-serif;
+    font-size: 125pt;
+    width: 250px;
+    height: 250px;
+}
+
+.landing-dot-text, .landing-dot-text a:link, .landing-dot-text a:visited, .landing-dot-text a:hover, .landing-dot-text a:active {
+    color: #2d2d2d;
+    margin: 30px auto;
+    font-family: skiplegday, Arial, sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    width: 275px;
+}
+
+.pink {
+    background: #ff568f;
+    transform: rotate(0deg);
+}
+
+.pink:hover {
+    background: #ffa9c6;
+    transform: rotate(30deg)
+}
+
+.orange {
+    background: #ffb656;
+    transform: rotate(0deg);
+}
+
+.orange:hover {
+    background: #ffd8a5;
+    transform: rotate(30deg);
+}
+
+.green {
+    background: #56ff6d;
+    transform: rotate(0deg);
+}
+
+.green:hover {
+    background: #a1ffae;
+    transform: rotate(30deg);
+}
+
+.blue {
+    background: #56aaff;
+    transform: rotate(3deg);
+}
+
+.blue:hover {
+    background: #a0cfff;
+    transform: rotate(30deg);
+}
+
+#h-large { }
+#h-text {
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+#o-large { }
+#o-text {
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+#p-large { }
+#p-text {
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+#e-large { }
+#e-text {
+    opacity: 0;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+}
+
+#landing-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin: 300px auto;
+    width: 1200px;
+    height: 500px;
+}
+
