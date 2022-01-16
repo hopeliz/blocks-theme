@@ -1,0 +1,447 @@
+.artwork-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.artwork-link {
+    background-color: #ffd8a5;
+    margin: 10px;
+    border: 1px solid #FF9304;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+}
+
+.artwork-link:hover {
+    cursor: pointer;
+}
+
+.artwork-link p {
+    opacity: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+    margin: 75px auto;
+    font-family: intervogue;
+    font-size: 12pt;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.more {
+    padding: 25px;
+    text-align: center;
+}
+
+.more a:link, .more a:visited, .more a:hover, .more a:active {
+    color: #2D2D2D;
+}
+
+.more a:hover, .more a:active {
+    color: #FF9304;
+}
+
+/* Practical Time Travel: The Ridges */
+
+#the-ridges {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/the-ridges/images/the-ridges-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#the-ridges::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#the-ridges:hover::before {
+    opacity: 0.5;
+}
+
+/* Rememblocks VR */
+
+#rememblocksvr {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/rememblocksvr/images/rembemblocksvr-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#rememblocksvr::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#rememblocksvr:hover::before {
+    opacity: 0.25;
+}
+
+/* Tuning Out the Interference */
+
+#tuning-out {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/tuning-out/images/tuning-out-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#tuning-out::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#tuning-out:hover::before {
+    opacity: 0.25;
+}
+
+/* Sibyl */
+
+#sibyl {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/sibyl/images/sibyl-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#sibyl::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#sibyl:hover::before {
+    opacity: 0.25;
+}
+
+/* Dancing Colors */
+
+#dancing-colors {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/dancing-colors/images/dancing-colors-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#dancing-colors::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#dancing-colors:hover::before {
+    opacity: 0.25;
+}
+
+/* Music [Sticky] Notes */
+
+#music-sticky-notes {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/music-sticky-notes/images/music-sticky-notes-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#music-sticky-notes::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#music-sticky-notes:hover::before {
+    opacity: 0.25;
+}
+
+/* Turbulent Minds*/
+
+#turbulent-minds {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/turbulent-minds/images/turbulent-minds-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#turbulent-minds::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#turbulent-minds:hover::before {
+    opacity: 0.25;
+}
+
+/* Scripps AR Poster*/
+
+#scripps-poster {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/scripps-poster/images/scripps-poster-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#scripps-poster::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#scripps-poster:hover::before {
+    opacity: 0.25;
+}
+
+/* 100 Days of Shaders and Textures */
+
+#shaders-textures {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/shaders-textures/images/shaders-textures-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#shaders-textures::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#shaders-textures:hover::before {
+    opacity: 0.25;
+}
+
+/* Glow Painting */
+
+#glow-painting {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/glow-painting/images/glow-painting-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#glow-painting::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#glow-painting:hover::before {
+    opacity: 0.25;
+}
+
+/* Musical Balance Board */
+
+#balance-board {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/balance-board/images/balance-board-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#balance-board::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#balance-board:hover::before {
+    opacity: 0.25;
+}
+
+/* 3D Animation */
+
+#animation {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/animation/images/animation-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#animation::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#animation:hover::before {
+    opacity: 0.25;
+}
+
+/* Arduino */
+
+#arduino {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/arduino/images/arduino-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#arduino::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#arduino:hover::before {
+    opacity: 0.25;
+}
+
+/* TouchDesigner */
+
+#touchdesigner {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/touchdesigner/images/touchdesigner-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#touchdesigner::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#touchdesigner:hover::before {
+    opacity: 0.25;
+}
+
+/* Unity 3D */
+
+#unity {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/unity/images/unity-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#unity::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#unity:hover::before {
+    opacity: 0.25;
+}
+
+/* Mixed Platform */
+
+#mixed {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/experiments/mixed/images/mixed-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#mixed::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#mixed:hover::before {
+    opacity: 0.25;
+}

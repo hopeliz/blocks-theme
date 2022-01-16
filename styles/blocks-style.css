@@ -51,12 +51,31 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-h1 {
-    padding: 75px;
+h1, h2 {
     font-family: skiplegday, Arial, sans-serif;
-    font-size: 26pt;
     text-align: center;
     font-weight: bold;
+}
+
+h1 {
+    padding: 50px;
+    padding-top: 25px;
+    font-size: 26pt;
+}
+
+h2 {
+    padding: 10px 35px;
+    margin-bottom: 0;
+    padding-bottom:  0;
+    font-size: 22pt;
+}
+
+hr {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border: 0;
+    border-top: 1px dashed #ff9304;
+    width: 25px;
 }
 
 .section {
