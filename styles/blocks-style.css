@@ -42,6 +42,7 @@
 
 body, p {
     color: #2d2d2d;
+    background: #fff;
     font-family: intervogue, Arial, sans-serif;
     font-size: 14pt;
     line-height: 1.5;
@@ -315,4 +316,41 @@ hr {
 
 #contact a:hover, #contact a:active {
     color: #ff568f;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+    body, p {
+        background: #1c1c1c;
+        color: #cfcfcf;
+    }
+    
+    .header-dot, .landing-dot {
+        color: #1c1c1c;
+    }
+    
+    .landing-dot-text, #text-header {
+        color: #fff;
+        letter-spacing: 1.5px;
+    }
+    
+    #footer {
+        color: #9f9f9f;
+    }
+    
+    #contact a:link, #contact a:visited {
+        color: #fff;
+    }
+    
+    #contact a:hover, #contact a:active {
+        color: #ff568f;
+    }
+    
+    #contact {
+        letter-spacing: 1px;
+    }
+
 }

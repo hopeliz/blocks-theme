@@ -11,7 +11,7 @@
     background-color: #ffd8a5;
     margin: 10px;
     border: 1px solid #FF9304;
-    border-radius: 15px;
+    border-radius: 5px;
     width: 200px;
     height: 200px;
 }
@@ -444,4 +444,21 @@
 
 #mixed:hover::before {
     opacity: 0.25;
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+    .more a:link, .more a:visited {
+        color: #cfcfcf;
+    }
+    
+    .more a:hover, .more a:active {
+        color: #FF9304;
+    }
+    
+    .artwork-link {
+        border: 0;
+    }
+
 }

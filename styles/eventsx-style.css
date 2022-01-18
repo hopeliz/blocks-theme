@@ -1,0 +1,48 @@
+#event-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 900px;
+}
+
+.event-left, .event-right, .event-left-filler, .event-right-filler {
+    width: 400px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.event-left {
+    text-align: right;
+}
+
+.center-dot {
+    background: #4CDC60;
+    margin: 24px 15px 0 15px;
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
+}
+
+.event-title {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.event-role {
+    font-size: 16pt;
+}
+
+.event-display {
+    font-size: 14pt;
+}
+
+.event-date {
+    font-size: 12pt;
+}
+
+.event-right {
+    text-align: left;
+}
