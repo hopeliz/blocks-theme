@@ -40,33 +40,16 @@
 }
 
 .event-role {
+    color: #9d9d9d;
     font-size: 16pt;
 }
 
 .event-display {
-    color: #5d5d5d;
+    color: #7d7d7d;
     font-size: 14pt;
 }
 
 .event-date {
-    color: #9d9d9d;
+    color: #5d5d5d;
     font-size: 12pt;
-}
-
-/* ------------------------------------------------------------------------- */
-
-@media (prefers-color-scheme: dark) {
-    .event-role {
-        color: #9d9d9d;
-    }
-    .event-display {
-        color: #7d7d7d;
-        font-size: 14pt;
-    }
-    
-    .event-date {
-        color: #5d5d5d;
-        font-size: 12pt;
-    }
-
 }

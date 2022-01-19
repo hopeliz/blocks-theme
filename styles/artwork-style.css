@@ -8,9 +8,8 @@
 }
 
 .artwork-link {
-    background-color: #ffd8a5;
+    border: 0;
     margin: 10px;
-    border: 1px solid #FF9304;
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -39,11 +38,11 @@
 }
 
 .more a:link, .more a:visited, .more a:hover, .more a:active {
-    color: #2D2D2D;
+    color: #cfcfcf;
 }
 
 .more a:hover, .more a:active {
-    color: #ffb656;
+    color: #FF9304;
 }
 
 /* Practical Time Travel: The Ridges */
@@ -444,21 +443,4 @@
 
 #mixed:hover::before {
     opacity: 0.25;
-}
-
-/* ------------------------------------------------------------------------- */
-
-@media (prefers-color-scheme: dark) {
-    .more a:link, .more a:visited {
-        color: #cfcfcf;
-    }
-    
-    .more a:hover, .more a:active {
-        color: #FF9304;
-    }
-    
-    .artwork-link {
-        border: 0;
-    }
-
 }
