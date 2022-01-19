@@ -1,0 +1,63 @@
+#experience-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.experience-block {
+    margin: 15px;
+    width: 33%;
+    max-width: 200px;
+}
+
+.experience-image {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.experience-image img {
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.experience-info {
+    text-align: center;
+}
+
+.experience-info h3 {
+    margin-top: 5px;
+    color: #d6eaff;
+    font-family: intervogue;
+    font-weight: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 14pt;
+    letter-spacing: 1px;
+}
+
+.experience-dates {
+    color: #9d9d9d;
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 12pt;
+}
+
+.education {
+    min-width: 40%;
+}
+
+h2 a:link, h2 a:visited {
+    color: inherit;
+}
+
+h2 a:hover, h2 a:active {
+    color: #d6eaff;
+}

@@ -75,7 +75,7 @@ hr {
     margin: 0 auto;
     margin-bottom: 50px;
     border: 0;
-    border-top: 1px dashed #ff9304;
+    border-top: 1px dashed #ffb656;
     width: 25px;
 }
 
@@ -105,7 +105,7 @@ hr {
 }
 
 .green {
-    background: #56ff6d;
+    background: #4CDC60;
     transform: rotate(0deg);
 }
 
