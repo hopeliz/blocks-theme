@@ -32,6 +32,53 @@
     width: 200px;
 }
 
+.artwork-left {
+    padding-top: 15px;
+    padding-left: 5px;
+    text-align: left;
+    width: 66%;
+}
+
+.artwork-right {
+    padding-top: 15px;
+    padding-right: 5px;
+    text-align: right;
+    width: 66%;
+}
+
+.artwork-center {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    line-height: 1.25;
+    width: 100%;
+}
+
+.artwork-block {
+    width: 250px;
+}
+
+.artwork-title {
+    font-family: intervogue, Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: 100;
+}
+
+.artwork-desc {
+    color: #9d9d9d;
+    font-size: 16pt;
+}
+
+.artwork-display {
+    color: #7d7d7d;
+    font-size: 14pt;
+}
+
+.artwork-date {
+    color: #5d5d5d;
+    font-size: 12pt;
+}
+
 .more {
     padding: 25px;
     text-align: center;
@@ -244,6 +291,32 @@
 #scripps-poster:hover::before {
     opacity: 0.25;
 }
+
+/* C.R.I.M.E. Sim*/
+
+#crime-sim {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/crime-sim/images/crime-sim-link.jpg);
+    background-size: 200px;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#crime-sim::before {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    background: #fff;
+    mix-blend-mode: screen;
+}
+
+#crime-sim:hover::before {
+    opacity: 0.25;
+}
+
 
 /* 100 Days of Shaders and Textures */
 

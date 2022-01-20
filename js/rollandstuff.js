@@ -151,6 +151,19 @@ $(document).ready(function() {
     });
     
     
+    $("#crime-sim").hover(function() {
+        $("#crime-sim p").delay(100).animate({opacity: "1"}, 200, "swing");
+         }, function(){
+        $("#crime-sim p").animate({opacity: "0"}, 200, "swing");
+    });
+    
+    $("#crime-sim").hover(function() {
+        $("#crime-sim").animate({"background-size": "300px"}, 200, "swing");
+         }, function(){
+        $("#crime-sim").delay(100).animate({"background-size": "200px"}, 200, "swing");
+    });
+    
+    
     $("#shaders-textures").hover(function() {
         $("#shaders-textures p").delay(100).animate({opacity: "1"}, 200, "swing");
          }, function(){

@@ -35,8 +35,9 @@
 }
 
 .event-title {
-    font-family: intervogue-ultra, Arial, sans-serif;
+    font-family: intervogue, Arial, sans-serif;
     font-size: 18pt;
+    font-weight: 100;
 }
 
 .event-role {
