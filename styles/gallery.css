@@ -42,6 +42,7 @@
     background-color: rgba(0,0,0,0.8);
 }
 
+/*
 .caption {
     position: absolute;
     bottom: 8px;
@@ -53,6 +54,7 @@
     font-size: 15px;
     width: 100%;
 }
+*/
 
 .progress-num {
     position: absolute;

@@ -25,7 +25,7 @@
     
     <script src="../../js/jquery-3.3.1.min.js"></script>
     <script src="../../js/rollandstuff.js"></script>
-    <script src="../../js/gallery.js"></script>
+    <script src="gallery.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,7 +39,60 @@
     </script>
 
 </head>
-<body onload="currentPhoto(1);">
+<body>
+    <div id="overlay">
+        <div id="pic01large">
+            <img src="images/01-fullmodel-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Full model of Building No. 4 of the Athens State Hospital in Unity.</div>
+        </div>
+        <div id="pic02large">
+            <img src="images/02-floor1windowdetail-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Floor 1 window detail of the final model.</div>
+        </div>
+        <div id="pic03large">
+            <img src="images/03-floor2windowdetail-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Floor 2 window detail of the final model.</div>
+        </div>
+        <div id="pic04large">
+            <img src="images/04-floor3windowdetail-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Floor 3 window detail of the final model.</div>
+        </div>
+        <div id="pic05large">
+            <img src="images/05-roofdetail-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Decorative roof detail of the final model.</div>
+        </div>
+        <div id="pic06large">
+            <img src="images/06-inside-700x.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Interior door example. There were five types of doors.<br />
+                Each provided the patients more autonomy the closer to the center of the full site.
+            </div>
+        </div>
+        <div id="pic07large">
+            <img style="min-height: 550px;" src="images/07-rockinghorse-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Example of an item and related fact.<br />
+                Items were related to real historical items available at local museums and exhibitions.
+            </div>
+        </div>
+        <div id="pic08large">
+            <img src="images/09-hydrotherapyroom-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Example of an interior wall image to provide visual context to the facts and locations.<br />
+                All images are linked to local museums and exhibitions.
+            </div>
+        </div>
+        <div id="pic09large">
+            <img src="images/08-fifthhospital-700.jpg" />
+            <div class="close">x</div>
+            <div class="caption">Example of an outdoor fact. Symbols on the ground show locations where the facts will appear.</div>
+        </div>
+    </div>
     
     <!-- Header -->
     <div id="header">
@@ -104,15 +157,15 @@
             <hr style="border-color: #ffb656;" />
             
             <div id="gallery-thumb-container">
-                <div id="pic-01" class="gallery-thumb-link"></div>
-                <div id="pic-02" class="gallery-thumb-link"></div>
-                <div id="pic-03" class="gallery-thumb-link"></div>
-                <div id="pic-04" class="gallery-thumb-link"></div>
-                <div id="pic-05" class="gallery-thumb-link"></div>
-                <div id="pic-06" class="gallery-thumb-link"></div>
-                <div id="pic-07" class="gallery-thumb-link"></div>
-                <div id="pic-08" class="gallery-thumb-link"></div>
-                <div id="pic-09" class="gallery-thumb-link"></div>
+                <div id="pic01" class="gallery-thumb-link"></div>
+                <div id="pic02" class="gallery-thumb-link"></div>
+                <div id="pic03" class="gallery-thumb-link"></div>
+                <div id="pic04" class="gallery-thumb-link"></div>
+                <div id="pic05" class="gallery-thumb-link"></div>
+                <div id="pic06" class="gallery-thumb-link"></div>
+                <div id="pic07" class="gallery-thumb-link"></div>
+                <div id="pic08" class="gallery-thumb-link"></div>
+                <div id="pic09" class="gallery-thumb-link"></div>
             </div>
             
             <!--
