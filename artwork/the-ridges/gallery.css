@@ -1,0 +1,89 @@
+#pic-01 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/01-fullmodel-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-02 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/02-floor1windowdetail-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-03 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/03-floor2windowdetail-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-04 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/04-floor3windowdetail-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-05 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/05-roofdetail-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-06 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/06-inside-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-07 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/07-rockinghorse-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-08 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/09-hydrotherapyroom-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic-09 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/08-fifthhospital-700x.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

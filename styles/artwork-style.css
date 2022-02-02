@@ -540,3 +540,150 @@
 #mixed:hover::before {
     opacity: 0.25;
 }
+
+/* ---------- GALLERY ----------------- */
+
+#gallery-thumb-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.gallery-thumb-link, .gallery-thumb-link img {
+    /*border: 1px solid #555;*/
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.gallery-thumb-link:hover {
+    cursor: pointer;
+}
+
+/* --------- SOFTWARE -----------------*/
+
+#tech-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.tech-link-title {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 0 5px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    overflow: visible;
+}
+
+.tech-link {
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 125px;
+    height: 200px;
+}
+
+.tech-link:hover {
+    cursor: pointer;
+}
+
+/* Unity */
+
+#tech-blender {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/blender-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-csharp {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/c-sharp-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-odyssey {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/odyssey-hmd.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+#tech-substance {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/substance-painter-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-unity {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/unity-icon-white.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/* ------------ Shown at --------- */
+
+#shownat-container { }
+
+.shownat-link {
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+/* --------------- Social Media ------------ */
+
+#socialmedia-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.socialmedia-link, .socialmedia-link img {
+    /*border: 1px solid #555;*/
+    border-radius: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
