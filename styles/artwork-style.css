@@ -309,6 +309,29 @@
     opacity: 0.25;
 }
 
+#dancing-colors-main {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/dancing-colors/images/dancing-colors-link.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+#dancing-colors-main::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    background: rgb(28,28,28);
+    background: linear-gradient(180deg, rgba(28,28,28,0) 0%, rgba(28,28,28,0) 15%, rgba(28,28,28,1) 100%);
+}
+
 /* Music [Sticky] Notes */
 
 #music-sticky-notes {
@@ -332,6 +355,29 @@
 
 #music-sticky-notes:hover::before {
     opacity: 0.25;
+}
+
+#music-sticky-notes-main {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/music-sticky-notes/images/music-sticky-notes-link.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+#music-sticky-notes-main::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    background: rgb(28,28,28);
+    background: linear-gradient(180deg, rgba(28,28,28,0) 0%, rgba(28,28,28,0) 15%, rgba(28,28,28,1) 100%);
 }
 
 /* Turbulent Minds*/
@@ -697,6 +743,16 @@
     background-repeat: no-repeat;
 }
 
+#tech-buckets {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/buckets.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #tech-csharp {
     position: relative;
     isolation: isolate;
@@ -777,6 +833,16 @@
     background-repeat: no-repeat;
 }
 
+#tech-sticky-notes {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/sticky-notes.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #tech-substance {
     position: relative;
     isolation: isolate;
@@ -802,6 +868,16 @@
     isolation: isolate;
     z-index: 1;
     background-image: url(../images/logos/unity-icon-white.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-webcam {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/webcam.png);
     background-size: 125px;
     background-position: top center;
     background-repeat: no-repeat;
