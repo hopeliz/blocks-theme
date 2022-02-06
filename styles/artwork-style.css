@@ -405,6 +405,29 @@
     opacity: 0.25;
 }
 
+#turbulent-minds-main {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/turbulent-minds/images/turbulent-minds-link.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+#turbulent-minds-main::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    background: rgb(28,28,28);
+    background: linear-gradient(180deg, rgba(28,28,28,0) 0%, rgba(28,28,28,0) 15%, rgba(28,28,28,1) 100%);
+}
+
 /* Scripps AR Poster*/
 
 #scripps-poster {
@@ -430,6 +453,51 @@
     opacity: 0.25;
 }
 
+#scripps-poster-main {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/scripps-poster/images/scripps-poster-link.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+#scripps-poster-main::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    background: rgb(28,28,28);
+    background: linear-gradient(180deg, rgba(28,28,28,0) 0%, rgba(28,28,28,0) 15%, rgba(28,28,28,1) 100%);
+}
+
+#scripps-poster-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.arposter {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 418px;
+}
+
+.arposter img {
+    text-align: center;
+    width: 100%;
+    max-width: 418px;
+}
+
 /* C.R.I.M.E. Sim*/
 
 #crime-sim {
@@ -453,6 +521,29 @@
 
 #crime-sim:hover::before {
     opacity: 0.25;
+}
+
+#crime-sim-main {
+    position: relative;
+    isolation: isolate;
+    background-image: url(../artwork/crime-sim/images/crime-sim-link.jpg);
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+#crime-sim-main::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    inset: 0;
+    background: rgb(28,28,28);
+    background: linear-gradient(180deg, rgba(28,28,28,0) 0%, rgba(28,28,28,0) 15%, rgba(28,28,28,1) 100%);
 }
 
 
@@ -723,11 +814,51 @@
 
 /* Unity */
 
+#tech-adobe {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/aftereffects-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-adobe2 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/premiere-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-android {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/androidstudio-icon-transparent.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #tech-arduino {
     position: relative;
     isolation: isolate;
     z-index: 1;
     background-image: url(../images/logos/arduino-icon-transparent.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-audacity {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/audacity-icon.png);
     background-size: 125px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -763,11 +894,41 @@
     background-repeat: no-repeat;
 }
 
+#tech-gear {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/samsunggearvr.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-gear-360 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/samsunggearvr.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #tech-kinect {
     position: relative;
     isolation: isolate;
     z-index: 1;
     background-image: url(../images/logos/kinect-icon2.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-lensstudio {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/lensstudio-icon-transparent.png);
     background-size: 125px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -788,6 +949,16 @@
     isolation: isolate;
     z-index: 1;
     background-image: url(../images/logos/minipc-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-oculus {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/oculus-icon-transparent.png);
     background-size: 125px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -873,6 +1044,16 @@
     background-repeat: no-repeat;
 }
 
+#tech-vuforia {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/vuforia-icon.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 #tech-webcam {
     position: relative;
     isolation: isolate;
@@ -888,6 +1069,26 @@
     isolation: isolate;
     z-index: 1;
     background-image: url(../images/logos/wood-transparent.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-yi {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/yi.png);
+    background-size: 125px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#tech-zoom {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(../images/logos/zoomh3vr.png);
     background-size: 125px;
     background-position: top center;
     background-repeat: no-repeat;
