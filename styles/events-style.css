@@ -54,3 +54,21 @@
     color: #5d5d5d;
     font-size: 12pt;
 }
+
+@media only screen and (max-width: 945px) {
+/* ------------------------------------------------------------------------------------------ */
+
+/* || MOBILE (945px) */
+
+/* ------------------------------------------------------------------------------------------ */
+
+#event-container {
+    width: 100%;
+}
+
+.event-right {
+    text-align: left;
+    border-right: none;
+    border-left: 1px dashed #4CDC60;
+    padding-left: 15px;
+}
