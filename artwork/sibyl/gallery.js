@@ -142,4 +142,10 @@ $(document).ready(function() {
     $(photos[current]).css("display", "none");
     current = -1;
   });
+  
+  $("#overlay").click(function() {
+    $("#overlay").css("display", "none");
+    $(photos[current]).css("display", "none");
+    current = -1;
+  });
 });
