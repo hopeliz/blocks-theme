@@ -1,4 +1,4 @@
-var photos = ["#pic01large", "#pic02large", "#pic03large", "#pic04large", "#pic05large", "#pic06large", "#pic07large", "#pic08large", "#pic09large", "#pic10large", "#pic11large" ];
+var photos = ["#pic01large", "#pic02large", "#pic03large", "#pic04large", "#pic05large", "#pic06large", "#pic07large", "#pic08large", "#pic09large", "#pic10large", "#pic11large", "#pic12large"  ];
 
 var current = -1;
 
@@ -67,6 +67,12 @@ $(document).ready(function() {
     $("#overlay").css("display", "block");
     $(photos[10]).css("display", "block");
     current = 10;
+  });
+  
+  $("#pic12").click(function() {
+    $("#overlay").css("display", "block");
+    $(photos[11]).css("display", "block");
+    current = 11;
   });
   
   $(".close").click(function() {
