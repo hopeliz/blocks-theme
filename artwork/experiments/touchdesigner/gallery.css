@@ -32,7 +32,7 @@
 }
 
 #pic01large, #pic02large, #pic03large, #pic04large, #pic05large, #pic06large, #pic07large, #pic08large, #pic09large, #pic10large,
-#pic11large, #pic12large {
+#pic11large, #pic12large, #pic13large, #pic14large {
     display: none;
     margin: 0 auto;
     width: 100%;
@@ -40,7 +40,7 @@
 }
 
 #pic01large img, #pic02large img, #pic03large img, #pic04large img, #pic05large img, #pic06large img, #pic07large img, #pic08large img, #pic09large img, #pic10large img,
-#pic11large img, #pic12large img {
+#pic11large img, #pic12large img, #pic13large img, #pic14large img {
     max-width: 100%;
 }
 
@@ -159,6 +159,26 @@
     isolation: isolate;
     z-index: 1;
     background-image: url(images/13-touchdesigner-small.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic13 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/15-touchdesigner-small.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pic14 {
+    position: relative;
+    isolation: isolate;
+    z-index: 1;
+    background-image: url(images/16-touchdesigner-small.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
